@@ -1,0 +1,28 @@
+.flag-icon-background,
+.flag-icon {
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat
+}
+
+.flag-icon {
+    position: relative;
+    display: inline-block;
+    width: 1.33333em;
+    line-height: 1em
+}
+
+.flag-icon:before {
+    content: '\00a0'
+}
+
+.flag-icon.flag-icon-squared {
+    width: 1em
+}
+
+.flag-icon-tr {
+    background-image: url(tr.svg)
+}
+.flag-icon-us {
+    background-image: url(us.svg)
+}

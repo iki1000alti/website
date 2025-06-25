@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'malikicon';
+    src:url('fontlar/malikicon.eot');
+    src:url('fontlar/malikicon.eot') format('embedded-opentype'),
+        url('fontlar/malikicon.ttf') format('truetype'),
+        url('fontlar/malikicon.woff') format('woff'),
+        url('fontlar/malikicon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.\*icon {
+    /* Fontu kullanırken '!important' anahtar kelimesini kullanınız. */
+    font-family: 'malikicon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Daha iyi işlev için gerekenler; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 20px;
+}
+
+.\*ev:before { content: "\1aa00"; }
+.\*koyu-ev:before { content: "\1aa01"; }
+.\*koyu-duyuru:before { content: "\1ab01"; }
+.\*kablosuz-mikrafon:before { content: "\1ac00"; }
+.\*kablosuz-mikrafon1:before { content: "\1ac01"; }
+.\*mikrafon:before { content: "\1ac02"; }
+.\*koyu-mikrafon:before { content: "\1ac03"; }
+.\*mikrafon-yok:before { content: "\1ac04"; }
+.\*koyu-mikrafon-yok:before { content: "\1ac05"; }
+.\*kulaklik:before { content: "\1ad00"; }
+.\*koyu-kulaklik:before { content: "\1ad01"; }
+.\*mikrafonlu-kulaklik:before { content: "\1ad02"; }
+.\*koyu-mikrafonlu-kulaklik:before { content: "\1ad03"; }
+.\*web-kamerasi:before { content: "\1ae00"; }
+.\*koyu-web-kamerasi:before { content: "\1ae01"; }
+.\*ses:before { content: "\1af00"; }
+.\*koyu-ses:before { content: "\1af01"; }
+.\*ses-yok:before { content: "\1af02"; }
+.\*koyu-ses-yok:before { content: "\1af03"; }
+.\*telefon:before { content: "\1ba00"; }
+.\*koyu-telefon:before { content: "\1ba01"; }
+.\*telefon-yok:before { content: "\1ba02"; }
+.\*koyu-telefon-yok:before { content: "\1ba03"; }
+.\*telefon-ekle:before { content: "\1ba04"; }
+.\*koyu-telefon-ekle:before { content: "\1ba05"; }
+.\*telefon-cikar:before { content: "\1ba06"; }
+.\*koyu-telefon-cikar:before { content: "\1ba07"; }
+.\*giden-telefon:before { content: "\1ba08"; }
+.\*koyu-giden-telefon:before { content: "\1ba09"; }
+.\*gelen-telefon:before { content: "\1ba10"; }
+.\*koyu-gelen-telefon:before { content: "\1ba11"; }
+.\*zil:before { content: "\1bb00"; }
+.\*koyu-zil:before { content: "\1bb01"; }
+.\*kullanici:before { content: "\1bc00"; }
+.\*koyu-kullanici:before { content: "\1bc01"; }
+.\*not:before { content: "\1bd00"; }
+.\*koyu-not:before { content: "\1bd01"; }
+.\*hediye:before { content: "\1be00"; }
+.\*koyu-hediye:before { content: "\1be01"; }
+.\*ayarlar:before { content: "\1bf00"; }
+.\*koyu-ayarlar:before { content: "\1bf01"; }
+.\*dunya:before { content: "\1ca00"; }
+.\*koyu-dunya:before { content: "\1ca01"; }
+.\*gunes:before { content: "\1ca02"; }
+.\*koyu-gunes:before { content: "\1ca03"; }
+.\*ay:before { content: "\1ca04"; }
+.\*koyu-ay:before { content: "\1ca05"; }
+.\*yildiz:before { content: "\1ca06"; }
+.\*koyu-yildiz:before { content: "\1ca07"; }
+.\*lira:before { content: "\1cb00"; }
+.\*dolar:before { content: "\1cb01"; }
+.\*euro:before { content: "\1cb02"; }
+.\*sirasiz-liste:before { content: "\1cc00"; }
+.\*sirali-liste:before { content: "\1cc01"; }
+.\*a-z:before { content: "\1cc02"; }
+.\*z-a:before { content: "\1cc03"; }
+.\*9:before { content: "\1cc04"; }
+.\*0:before { content: "\1cc05"; }
+.\*giris:before { content: "\1cd00"; }
+.\*cikis:before { content: "\1cd01"; }
+.\*gecis-kapali:before { content: "\1cd02"; }
+.\*koyu-gecis-kapali:before { content: "\1cd03"; }
+.\*gecis-acik:before { content: "\1cd04"; }
+.\*koyu-gecis-acik:before { content: "\1cd05"; }
+.\*ekrani-buyult:before { content: "\1ce00"; }
+.\*ekrani-kucult:before { content: "\1ce01"; }
+.\*renkli:before { content: "\1cf00"; }
+.\*koyu-renkli:before { content: "\1cf01"; }
+.\*renksiz:before { content: "\1cf02"; }
+.\*koyu-renksiz:before { content: "\1cf03"; }
+.\*zar-1:before { content: "\1da00"; }
+.\*koyu-zar-1:before { content: "\1da01"; }
+.\*zar-2:before { content: "\1da02"; }
+.\*koyu-zar-2:before { content: "\1da03"; }
+.\*zar-3:before { content: "\1da04"; }
+.\*koyu-zar-3:before { content: "\1da05"; }
+.\*zar-4:before { content: "\1da06"; }
+.\*koyu-zar-4:before { content: "\1da07"; }
+.\*zar-5:before { content: "\1da08"; }
+.\*koyu-zar-5:before { content: "\1da09"; }
+.\*zar-6:before { content: "\1da10"; }
+.\*koyu-zar-6:before { content: "\1da11"; }
+.\*whatsapp:before { content: "\1db00"; }
+.\*koyu-whatsapp:before { content: "\1db01"; }
+.\*youtube:before { content: "\1db02"; }
+.\*koyu-youtube:before { content: "\1db03"; }
+.\*instagram:before { content: "\1db04"; }
+.\*koyu-instagram:before { content: "\1db05"; }
+.\*telegram:before { content: "\1db06"; }
+.\*koyu-telegram:before { content: "\1db07"; }
+.\*messenger:before { content: "\1db08"; }
+.\*koyu-messenger:before { content: "\1db09"; }
+.\*javascript:before { content: "\1dc00"; }
+.\*koyu-javascript:before { content: "\1dc01"; }
+.\*css3:before { content: "\1dc02"; }
+.\*koyu-css3:before { content: "\1dc03"; }
+.\*html5:before { content: "\1dc04"; }
+.\*koyu-html5:before { content: "\1dc05"; }
+.\*malik:before { content: "\1dd00"; }
+.\*yuvarlak-malik:before { content: "\1dd01"; }
+.\*koyu-yuvarlak-malik:before { content: "\1dd02"; }
+.\*koyu-kare-malik:before { content: "\1dd03"; }
+.\*kare-malik:before { content: "\1dd04"; }
+.\*tekli-serit-yukari:before { content: "\1de00"; }
+.\*tekli-serit-sag:before { content: "\1de01"; }
+.\*tekli-serit-asagi:before { content: "\1de02"; }
+.\*tekli-serit-sol:before { content: "\1de03"; }
+.\*harf_kontrol:before { content: "\1de04"; }
+.\*sil:before { content: "\1de05"; }
+.\*gonder:before { content: "\1de06"; }
+.\*arti:before { content: "\1df00"; }
+.\*eksi:before { content: "\1df01"; }
+.\*ici-bos-kure:before { content: "\1ea00"; }
+.\*ici-dolu-kure:before { content: "\1ea01"; }
